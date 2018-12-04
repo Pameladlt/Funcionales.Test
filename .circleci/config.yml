@@ -3,7 +3,6 @@ jobs:
   build:
     docker:
     - image: circleci/python:3.6.2-stretch-browsers
-      - image: selenium/standalone-chrome:3.1.0
         environment:
           FLASK_CONFIG: testing
           TEST_DATABASE_URL: postgresql://ubuntu@localhost/circle_test?sslmode=disable
