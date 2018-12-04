@@ -2,6 +2,7 @@ version: 2
 jobs:
   build:
     docker:
+    - image: circleci/python:3.6.2-stretch-browsers
       - image: selenium/standalone-chrome:3.1.0
         environment:
           FLASK_CONFIG: testing
