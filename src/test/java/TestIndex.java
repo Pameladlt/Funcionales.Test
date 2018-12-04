@@ -59,7 +59,7 @@ public class TestIndex {
         WebElement Task = driver.findElementByClassName("task");
         
         String result= Task.getText();
-        String expected="leer libro";
+        String expected="leer ibro";
         assertEquals(expected, result);
         }
       
