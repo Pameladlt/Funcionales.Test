@@ -30,8 +30,4 @@ jobs:
       - store_test_results:
           path: test-reports/
           
-         run:
-    command: |
-      echo Running test
-      mkdir -p /tmp/test-results
-      make test
+     
