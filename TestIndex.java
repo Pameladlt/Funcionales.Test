@@ -34,7 +34,7 @@ public class TestIndex {
         driver = new ChromeDriver(); 
         driver.get(URL);
                 try {
-            Thread.sleep(2000);
+            Thread.sleep(3000);
         } catch (InterruptedException ex) {
             Logger.getLogger(TestIndex.class.getName()).log(Level.SEVERE, null, ex);
         }
